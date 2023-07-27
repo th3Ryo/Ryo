@@ -1,0 +1,87 @@
+/* Resetear estilos predeterminados */
+body, h1, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Establecer el tamaño de fuente base */
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(to right, #00000080, #ffffff80);
+}
+
+
+main {
+  font-family: 'Nunito Sans', sans-serif;
+  /* max-width: 75rem; /* 1200px / 16px = 75rem */ 
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  padding: 1.25rem; /* 20px / 16px = 1.25rem */
+  
+}
+
+/* Estilos para la sección de información */
+.info-column {
+  flex-basis: 30%; /* Sin cambios, sigue en porcentaje */
+  justify-content: space-between;
+  padding: 1.25rem; /* 20px / 16px = 1.25rem */
+  color: aliceblue;
+}
+
+.info-column h1 {
+  font-size: 1.75rem; /* 28px / 16px = 1.75rem */
+  margin-bottom: 0.625rem; /* 10px / 16px = 0.625rem */
+}
+
+.info-column article p {
+  text-align: justify; /* Alinea el texto justificado */
+  font-size: 16px; /* Tamaño de fuente ajustable según tus preferencias */
+  line-height: 1.5; /* Ajusta el espaciado entre líneas para mejorar la legibilidad */
+  /*hyphens: auto;  Permite el uso de guiones en palabras largas */
+  padding: 0.5rem;
+}
+
+/* Estilos para la sección del logo */
+.logo-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 30%; /* Sin cambios, sigue en porcentaje */
+  padding: 1.25rem; /* 20px / 16px = 1.25rem */
+}
+
+/* Estilos para la sección del logo */
+
+
+
+.logo-column img {
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  max-width: 100%;
+}
+
+.logo-column canvas {
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  border: solid 1px black;
+  max-width: 100%;
+}
+
+/* Estilos para la sección de proyectos destacados */
+.projects-column {
+  flex-basis: 30%;
+}
