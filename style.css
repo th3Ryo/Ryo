@@ -83,5 +83,45 @@ main {
 
 /* Estilos para la sección de proyectos destacados */
 .projects-column {
-  flex-basis: 30%;
+  width: 30%;
+}
+
+.projects-column ul {
+  width: 90%;
+}
+
+.projects-column ul li {
+  height: 10%;
+}
+
+
+
+.container-logos {
+  display: flex;
+  width: 80%;
+  height: 60%;
+  
+}
+
+
+
+
+.logo {
+  width: 100%;
+  height: 100%;
+  
+}
+
+use {
+  width: 50px;
+  height: 50px;
+}
+
+@media (max-width: 375px) {
+  main {
+    flex-direction: column; /* Cambiar a columnas */
+    align-items: center; /* Centrar los elementos verticalmente */
+    color: black;
+  }
+  
 }
