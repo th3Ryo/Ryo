@@ -34,9 +34,16 @@ document.addEventListener("DOMContentLoaded", () => {
     const canvas = document.createElement("canvas"); // Crear un elemento de lienzo (canvas)
     canvas.setAttribute("id", "canvas"); // Establecer el atributo 'id' del canvas
     const asideWidth = document.querySelector("aside").clientWidth;
-    const asideHeight = document.querySelector("aside").clientWidth;
-    canvas.width = asideWidth;
-    canvas.height = asideWidth;
+    const asideHeight = document.querySelector("aside").asideHeight;
+    if (asideWidth<300) {
+      canvas.width = 300;
+      canvas.height = 300;
+    }else {
+      canvas.width = asideWidth;
+      canvas.height = asideWidth;
+    }
+
+    
     console.log("Canvas width:", canvas.width);
     console.log("Canvas height:", canvas.height);
     /* canvas.style.width = "100%"; // Establecer el ancho del canvas al 100% del contenedor

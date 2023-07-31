@@ -169,4 +169,13 @@
     <path d="m189 203-80 45v-35l50-28zm6-5v-96l-30 17v62zm-174 5 81 45v-35l-51-28zm-6-5v-96l30 17v62zm4-102 83-47v35l-54 29zm172 0-82-47v35l53 29z" fill="#8ed6fb"/>
     <path d="m102 205-50-28v-54l50 29zm7 0 49-27v-55l-49 29zm-54-88 50-27 50 27-50 29z" fill="#1c78c0"/>
   </symbol>
+  <symbol id="react" viewBox="-11.5 -10.23174 23 20.46348">
+    <title>React Logo</title>
+    <circle cx="0" cy="0" r="2.05" fill="#61dafb"/>
+    <g stroke="#61dafb" stroke-width="1" fill="none">
+      <ellipse rx="11" ry="4.2"/>
+      <ellipse rx="11" ry="4.2" transform="rotate(60)"/>
+      <ellipse rx="11" ry="4.2" transform="rotate(120)"/>
+    </g>
+  </symbol>
 </svg>
